@@ -1,7 +1,7 @@
 <?php 
 
 try {
-    $dns = new PDO("mysql:host=localhost;dbname=bulut","root","");
+    $dns = new PDO("mysql:host=localhost;dbname=deneme","root","");
     
     if(isset($_POST["gonder"])){
         
